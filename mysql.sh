@@ -51,7 +51,7 @@ then
     VALIDATE $? "Setting UP root password"
 else
     echo -e "MySQL root password is already setup...$Y SKIPPING $N" | tee -a $LOG_FILE
-fi 
+fi
 
 # Assignment
 # check MySQL Server is installed or not, enabled or not, started or not
